@@ -1,0 +1,64 @@
+.Footer-container{
+    position: relative;
+}
+
+.Footer-container{
+    border: 1px solid var(--lightgray);
+}
+#youtube{
+ 
+    background-color: red;
+    border-radius: 40%;
+}
+#whatsapp{
+    background-color: rgb(118, 224, 118);
+    border-radius: 40%;
+}
+#insta{
+    background-color: rgb(235, 46, 77);
+    border-radius: 40%;
+}
+.footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+
+.social-links{
+    display: flex;
+    gap: 4rem;
+
+}
+
+.social-links>img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    color: red;
+}
+.logo-f{
+    width: 13rem;
+    height: 7rem;
+    margin-bottom: 2rem;
+
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.timings>span{
+    color: white;
+    line-height: 2;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
